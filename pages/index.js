@@ -17,7 +17,7 @@ class Index extends Component {
     render() {
         return (
             <>
-                {/* <Navbar /> */}
+                <Navbar />
 
                 <MainBanner />
 
