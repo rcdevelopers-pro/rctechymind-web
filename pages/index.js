@@ -1,45 +1,42 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
-import MainBanner from '../components/HomePages/DefaultHome/MainBanner';
-import Services from '../components/HomePages/DefaultHome/Services';
-import About from '../components/HomePages/DefaultHome/About';
-import OurWorks from '../components/HomePages/DefaultHome/OurWorks';
-import WorkProcess from '../components/HomePages/DefaultHome/WorkProcess';
+import NavbarTwo from '../components/Layouts/NavbarTwo';
+import MainBanner from '../components/HomePages/ItAgencyTwo/MainBanner';
+import OurServices from '../components/HomePages/ItAgencyTwo/OurServices';
+import ServiceStyleTwo from '../components/HomePages/ItAgencyTwo/ServiceStyleTwo';
+import WhyChooseUs from '../components/HomePages/ItAgencyTwo/WhyChooseUs';
+import FunFactsTwo from '../components/Common/FunFactsTwo';
 import Feedback from '../components/Common/Feedback';
-import Team from '../components/Common/Team';
-import FunFacts from '../components/Common/FunFacts';
-import LatestNewsSlider from '../components/Common/LatestNewsSlider';
-import CtaArea from '../components/Common/CtaArea';
-import Partner from '../components/Common/Partner';
+import WorkProcess from '../components/HomePages/DefaultHome/WorkProcess'; 
+import LatestNewsSliderTwo from '../components/Common/LatestNewsSliderTwo';
+import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer';
+import Partner from '../components/Common/Partner';
 
-class Index extends Component {
+class ItAgency2 extends Component {
     render() {
         return (
             <>
-                <Navbar />
+                <NavbarTwo />
 
-                <MainBanner />
+                <MainBanner /> 
 
-                <Services />
+                <OurServices />
 
-                <About />
+                <ServiceStyleTwo />
 
-                <OurWorks />
-
-                <WorkProcess />
-
-                <Feedback />
-
-                <Team />
-
-                <FunFacts />
-
-                <LatestNewsSlider />
-
-                <CtaArea />
+                <WhyChooseUs />
+                <FunFactsTwo />
+                {/* <WorkProcess /> */}
 
                 <Partner />
+
+                <Feedback /> 
+                
+                <LatestNewsSliderTwo />
+
+                <div className="pb-100">
+                    <Newsletter />
+                </div>
                 
                 <Footer />
             </>
@@ -47,4 +44,4 @@ class Index extends Component {
     }
 }
 
-export default Index;
+export default ItAgency2;

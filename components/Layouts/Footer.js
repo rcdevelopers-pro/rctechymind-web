@@ -69,16 +69,7 @@ class Footer extends Component {
                                                 <a>Services</a>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/portfolio">
-                                                <a>Portfolio</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/team">
-                                                <a>Team</a>
-                                            </Link>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -93,11 +84,7 @@ class Footer extends Component {
                                                 <a>Contact Us</a>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/pricing">
-                                                <a>Pricing</a>
-                                            </Link>
-                                        </li>
+                                         
                                         <li>
                                             <Link href="/faq">
                                                 <a>Faq</a>
@@ -139,7 +126,7 @@ class Footer extends Component {
 
                     <div className="copyright-area">
                         <div className="container">
-                            <p>Copyright &copy; {currentYear} Pungent. All Rights Reserved By <a href="https://envytheme.com" target="_blank">EnvyTheme</a></p>
+                            <p>Copyright &copy; {currentYear} Rc Techy Mind. All Rights Reserved</p>
                         </div>
                     </div>
                 </footer>

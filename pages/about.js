@@ -23,9 +23,7 @@ class Aabout extends Component {
                 <AboutContent />
 
                 <FunFactsTwo />
-
-                <TeamStyleThree />
-
+ 
                 <Feedback />
 
                 <Partner />

@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import PageBanner from '../components/Common/PageBanner';
-import ServicesStyleOne from '../components/Services/ServicesStyleOne';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
+import ServicesStyleFour from '../components/Services/ServicesStyleFour';
+import CtaArea from '../components/Common/CtaArea';
 import Footer from '../components/Layouts/Footer';
 
-class Services extends Component {
+class Services4 extends Component {
     render() {
         return (
             <>
                 <NavbarTwo />
                 
                 <PageBanner 
-                    pageTitle="Our Services" 
-                    BGImage="bg-one"
+                    pageTitle="Services Style 4" 
+                    BGImage="bg-four"
                 />  
 
-                <ServicesStyleOne />
+                <ServicesStyleFour />
 
-                <CtaAreaTwo />
+                <CtaArea />
 
                 <Footer />
             </>
@@ -26,4 +26,4 @@ class Services extends Component {
     }
 }
 
-export default Services;
+export default Services4;
